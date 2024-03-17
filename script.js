@@ -44,13 +44,13 @@ let timer;
 function loadDropletImages() {
     // Load images using Image object
     movingDropletImage = new Image();
-    movingDropletImage.src = '/home/aranya/Desktop/V lab 2.0/qq.png';
+    movingDropletImage.src = 'qq.png';
 
     fixedDropletImage = new Image();
-    fixedDropletImage.src = '/home/aranya/Desktop/V lab 2.0/Screenshot from 2024-01-31 20-44-09.png';
+    fixedDropletImage.src = 'Screenshot from 2024-01-31 20-44-09.png';
 
     newFixedDropletImage = new Image();
-    newFixedDropletImage.src = '/home/aranya/Desktop/V lab 2.0/Screenshot from 2024-01-31 20-53-19.png';
+    newFixedDropletImage.src = 'Screenshot from 2024-01-31 20-53-19.png';
 }
 
 // Update velocity function

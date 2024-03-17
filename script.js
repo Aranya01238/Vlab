@@ -44,13 +44,13 @@ let timer;
 function loadDropletImages() {
     // Load images using Image object
     movingDropletImage = new Image();
-    movingDropletImage.src = "qq.png";
+    movingDropletImage.src = "qq.png" alt ="";
 
     fixedDropletImage = new Image();
-    fixedDropletImage.src = "Screenshot from 2024-01-31 20-44-09.png";
+    fixedDropletImage.src = "Screenshot from 2024-01-31 20-44-09.png" alt ="";
 
     newFixedDropletImage = new Image();
-    newFixedDropletImage.src = "Screenshot from 2024-01-31 20-53-19.png";
+    newFixedDropletImage.src = "Screenshot from 2024-01-31 20-53-19.png" alt ="";
 }
 
 // Update velocity function
